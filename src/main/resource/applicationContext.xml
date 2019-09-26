@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+	    				   http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!--	&lt;!&ndash; 注入 MemberMapperImpl 对象&ndash;&gt;-->
+<!--	<bean id="memberMapperImpl" class="com.tech.mapper.MemberMapperImpl"/>-->
+
+<!--	&lt;!&ndash; 注入MemberService 对象&ndash;&gt;-->
+<!--	<bean id="memberServiceImpl" class="com.tech.service.impl.MemberServiceImpl"/>-->
+
+<!--&lt;!&ndash;	注入controller对象&ndash;&gt;-->
+<!--	<bean id="memberController" class="com.tech.controller.MemberController">-->
+<!--		<constructor-arg name="memberService" ref="memberServiceImpl"/>-->
+<!--	</bean>-->
+
+<!--&lt;!&ndash;	&ndash;&gt;-->
+<!--&lt;!&ndash;	<bean id="memberMapperImpl" class="com.tech.service.impl.MemberServiceImpl">&ndash;&gt;-->
+<!--&lt;!&ndash;		<property name="mapper" ref="memberMapperImpl"></property>&ndash;&gt;-->
+<!--&lt;!&ndash;	</bean>&ndash;&gt;-->
+
+</beans>
